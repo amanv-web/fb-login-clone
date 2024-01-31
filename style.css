@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(236, 236, 236, 1) 22%, rgba(240, 242, 242, 1) 86%, rgba(255, 255, 255, 1) 100%);
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#fbpic {
+    height: 7rem;
+    display: flex
+}
+
+#text {
+    margin-left: 40px;
+    font-family: helvetica, arial, sans-serif, sfprodisplay-regular, helvetica, sfprotext-regular, sfprotext-semibold;
+    font-size: 25px;
+}
+
+#box {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 110px 0 0;
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgb(216, 215, 215);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+   
+    
+   
+}
+
+
+#box input {
+    height: 40px;
+    width: 90%;
+    margin: 10px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Courier New', Courier, monospace;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(238, 238, 238);
+    border-color: black;
+    padding: 2px 5px;
+    border-color: rgb(172, 172, 172);
+    outline-color: #1877F2;
+
+
+}
+
+
+
+#for {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#login {
+    height: 43px;
+    width: 94%;
+    background-color: #1877F2;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+
+
+}
+
+hr {
+    height: 1px;
+    margin: 20px 20px;
+    border: none;
+    background-color: rgb(185, 185, 185);
+    border-radius: 1px;
+
+}
+
+#for a:visited {
+    color: #1877F2;
+    margin: 10px;
+    color: #1877F2;
+    background-color: transparent;
+    text-decoration: none;
+
+
+}
+
+#new {
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: RGB(51, 160, 30);
+    color: white;
+}
+
+#page {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#inbox {
+    height: 334 px;
+}
+
+#pag {
+    padding-left: 100px;
+
+}
+
+#page a {
+    color: rgb(0, 0, 0);
+
+}
+
+#pag:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: white;
+}
+
+#textspace {
+    text-indent: 1rex;
+}
